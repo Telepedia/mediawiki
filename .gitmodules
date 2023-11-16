@@ -1194,3 +1194,7 @@
 	path = extensions/NativeSvgHandler
 	url = https://github.com/wikimedia/mediawiki-extensions-NativeSvgHandler
 	branch = REL1_39
+[submodule "extensions/GTag"]
+	path = extensions/GTag
+	url = https://github.com/SkizNet/mediawiki-GTag/
+	branch = master
