@@ -1184,5 +1184,5 @@
 	branch = master
 [submodule "extensions/ManageWiki"]
 	path = extensions/ManageWiki
-	url = https://github.com/Miraheze/ManageWiki/
+	url = https://github.com/Telepedia/ManageWiki
 	branch = master
