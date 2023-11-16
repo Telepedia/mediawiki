@@ -1190,3 +1190,7 @@
 	path = extensions/DiscordNotifications
 	url = https://github.com/kulttuuri/DiscordNotifications
 	branch = master
+[submodule "extensions/NativeSvgHandler"]
+	path = extensions/NativeSvgHandler
+	url = https://github.com/wikimedia/mediawiki-extensions-NativeSvgHandler
+	branch = REL1_39
