@@ -1186,3 +1186,7 @@
 	path = extensions/ManageWiki
 	url = https://github.com/Telepedia/ManageWiki
 	branch = master
+[submodule "extensions/DiscordNotifications"]
+	path = extensions/DiscordNotifications
+	url = https://github.com/kulttuuri/DiscordNotifications
+	branch = master
