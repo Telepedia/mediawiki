@@ -1202,3 +1202,7 @@
 	path = extensions/TelepediaMagic
 	url = https://gitlab.com/telepedia/extensions/TelepediaMagic
 	branch = main
+[submodule "extensions/TelepediaAds"]
+	path = extensions/TelepediaAds
+	url = https://gitlab.com/telepedia/extensions/telepediaads
+	branch = main
