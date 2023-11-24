@@ -1202,7 +1202,4 @@
 	path = extensions/TelepediaAds
 	url = https://gitlab.com/telepedia/extensions/telepediaads
 	branch = main
-[submodule "extensions/EmbedVideo"]
-	path = extensions/EmbedVideo
-	url = https://gitlab.com/hydrawiki/extensions/EmbedVideo
-	branch = master
+
