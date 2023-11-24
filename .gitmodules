@@ -1050,10 +1050,6 @@
 	path = extensions/Bootstrap
 	url = https://github.com/ProfessionalWiki/Bootstrap
 	branch = master
-[submodule "extensions/EmbedVideo"]
-	path = extensions/EmbedVideo
-	url = https://github.com/StarCitizenWiki/mediawiki-extensions-EmbedVideo
-	branch = master
 [submodule "extensions/PageForms"]
 	path = extensions/PageForms
 	url = https://github.com/wikimedia/mediawiki-extensions-PageForms
