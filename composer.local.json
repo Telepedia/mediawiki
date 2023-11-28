@@ -3,7 +3,7 @@
 		"merge-plugin": {
 			"include": [
 				"extensions/AWS/composer.json",
-				"extensions/AWS/composer.json"
+				"extensions/AbuseFilter/composer.json"
 			]
 		}
 	}
