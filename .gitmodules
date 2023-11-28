@@ -1202,3 +1202,6 @@
 	path = extensions/TelepediaAds
 	url = https://gitlab.com/telepedia/extensions/telepediaads
 	branch = main
+[submodule "extensions/MigrateUserAccount"]
+	path = extensions/MigrateUserAccount
+	url = https://github.com/weirdgloop/mediawiki-extensions-MigrateUserAccount.git
