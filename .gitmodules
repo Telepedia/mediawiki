@@ -1192,7 +1192,7 @@
 	branch = REL1_39
 [submodule "extensions/GTag"]
 	path = extensions/GTag
-	url = https://github.com/SkizNet/mediawiki-GTag/
+	url = https://github.com/Telepedia/mediawiki-GTag
 	branch = master
 [submodule "extensions/TelepediaMagic"]
 	path = extensions/TelepediaMagic
