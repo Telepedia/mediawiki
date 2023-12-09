@@ -1193,7 +1193,7 @@
 [submodule "extensions/GTag"]
 	path = extensions/GTag
 	url = https://github.com/Telepedia/mediawiki-GTag
-	branch = master
+	branch = master 
 [submodule "extensions/TelepediaMagic"]
 	path = extensions/TelepediaMagic
 	url = https://gitlab.com/telepedia/extensions/TelepediaMagic
