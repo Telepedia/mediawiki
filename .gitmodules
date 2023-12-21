@@ -1182,10 +1182,6 @@
 	path = extensions/ManageWiki
 	url = https://github.com/Telepedia/ManageWiki
 	branch = master
-[submodule "extensions/DiscordNotifications"]
-	path = extensions/DiscordNotifications
-	url = https://github.com/Universal-Omega/DiscordNotifications
-	branch = master
 [submodule "extensions/NativeSvgHandler"]
 	path = extensions/NativeSvgHandler
 	url = https://github.com/wikimedia/mediawiki-extensions-NativeSvgHandler
