@@ -5,7 +5,7 @@ updates:
     labels: []
     schedule:
       interval: daily
-      time: "12:10:"
+      time: "12:10"
     open-pull-requests-limit: 750
     rebase-strategy: auto
     target-branch: REL1_39
