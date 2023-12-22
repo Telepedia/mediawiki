@@ -1,0 +1,42 @@
+name: Create Pull Request to sync with Wikimeda Repository Upstream
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        ref: REL1_39
+        fetch-depth: 0
+
+    - name: Configure Upstream
+      run: |
+        git remote add upstream https://github.com/wikimedia/mediawiki.git
+        git fetch upstream REL1_39
+
+    - name: Create New Branch
+      run: |
+        git checkout -b update-REL1_39-$(date +'%Y%m%d')
+        git merge upstream/REL1_39
+
+    - name: Push Changes
+      run: |
+        git push origin HEAD
+
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        branch: update-REL1_39-$(date +'%Y%m%d')
+        title: "Update REL1_39 from Upstream"
+        body: "This PR is to merge the latest changes from the upstream REL1_39 branch."
+        labels: |
+          auto
+          update
