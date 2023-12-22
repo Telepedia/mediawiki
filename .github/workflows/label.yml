@@ -15,7 +15,8 @@ jobs:
         git config pull.rebase false
         submodule=$(echo $(echo ${GITHUB_HEAD_REF} | cut -d'/' -f4,5 ) | cut -d'-' -f1 )
         git submodule update --init $submodule
-        git pull https://github.com/${GITHUB_REPOSITORY} ${GITHUB_HEAD_REF}
+        git fetch https://github.com/${GITHUB_REPOSITORY} ${GITHUB_HEAD_REF}
+        git rebase FETCH_HEAD
         list=$(git -c color.diff=false diff --submodule=diff $submodule | sed -n -e s/^diff\ --git\ a\\///p)
         pull_number=$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")
 
