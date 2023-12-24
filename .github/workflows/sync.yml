@@ -8,10 +8,11 @@ on:
 jobs:
   create-pr:
     runs-on: ubuntu-latest
-    env:
-      BRANCH_NAME: update-REL1_39-${{ format('{0:yyyyMMdd}', github.event.schedule) }}
     
     steps:
+    - name: Set Environment Variables
+      run: echo "BRANCH_NAME=update-REL1_39-$(date +'%Y%m%d')" >> $GITHUB_ENV
+
     - name: Checkout
       uses: actions/checkout@v2
       with:
