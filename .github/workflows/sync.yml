@@ -16,10 +16,14 @@ jobs:
         ref: REL1_39
         fetch-depth: 0
 
-  - name: Configure Git
-    run: |
-      git config --local user.name "github-actions[bot]"
-      git config --local user.email "github-actions[bot]@users.noreply.github.com"
+    - name: Configure Git
+      run: |
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+    - name: Show Git Config
+      run: |
+        git config --local --list
 
     - name: Configure Upstream
       run: |
