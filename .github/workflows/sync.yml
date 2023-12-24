@@ -16,6 +16,11 @@ jobs:
         ref: REL1_39
         fetch-depth: 0
 
+    - name: Configure Git
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+
     - name: Configure Upstream
       run: |
         git remote add upstream https://github.com/wikimedia/mediawiki.git
@@ -40,3 +45,4 @@ jobs:
         labels: |
           auto
           update
+          automerge
