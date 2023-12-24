@@ -9,14 +9,13 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-        ref: 'REL1_39'
+        ref: 'REL1_40'
 
     - run: |
         git config pull.rebase false
         submodule=$(echo $(echo ${GITHUB_HEAD_REF} | cut -d'/' -f4,5 ) | cut -d'-' -f1 )
         git submodule update --init $submodule
-        git fetch https://github.com/${GITHUB_REPOSITORY} ${GITHUB_HEAD_REF}
-        git merge FETCH_HEAD --allow-unrelated-histories
+        git pull https://github.com/${GITHUB_REPOSITORY} ${GITHUB_HEAD_REF}
         list=$(git -c color.diff=false diff --submodule=diff $submodule | sed -n -e s/^diff\ --git\ a\\///p)
         pull_number=$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")
 
