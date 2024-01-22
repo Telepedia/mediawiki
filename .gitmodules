@@ -1172,7 +1172,7 @@
 	branch = master
 [submodule "extensions/CreateWiki"]
 	path = extensions/CreateWiki
-	url = https://github.com/Miraheze/CreateWiki/
+	url = https://github.com/Telepedia/CreateWiki/
 	branch = master
 [submodule "extensions/ManageWiki"]
 	path = extensions/ManageWiki
