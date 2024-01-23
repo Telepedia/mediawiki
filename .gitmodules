@@ -6,6 +6,10 @@
 	path = extensions/CategoryTree
 	url = https://github.com/wikimedia/mediawiki-extensions-CategoryTree
 	branch = REL1_39
+[submodule "extensions/Cargo"]
+	path = extensions/Cargo
+	url = https://github.com/wikimedia/mediawiki-extensions-Cargo
+	branch = REL1_39
 [submodule "extensions/Cite"]
 	path = extensions/Cite
 	url = https://github.com/wikimedia/mediawiki-extensions-Cite
