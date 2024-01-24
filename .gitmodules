@@ -132,7 +132,7 @@
 	branch = REL1_39
 [submodule "skins/Vector"]
 	path = skins/Vector
-	url = https://gerrit.wikimedia.org/r/mediawiki/skins/Vector
+	url = https://github.com/Telepedia/mediawiki-skins-Vector
 	branch = REL1_39
 [submodule "vendor"]
 	path = vendor
@@ -955,7 +955,7 @@
 	url = https://github.com/wikimedia/mediawiki-extensions-WikibaseLexeme
 	branch = REL1_39
 [submodule "extensions/Commentbox"]
-	path = extensions/Commentbox
+	path = extensions/Commentbox 
 	url = https://github.com/wikimedia/mediawiki-extensions-Commentbox
 	branch = REL1_39
 [submodule "extensions/LogoFunctions"]
