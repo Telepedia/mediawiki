@@ -185,7 +185,7 @@
 [submodule "extensions/UniversalLanguageSelector"]
 	path = extensions/UniversalLanguageSelector
 	url = https://github.com/wikimedia/mediawiki-extensions-UniversalLanguageSelector
-	branch = master
+	branch = REL1_39
 [submodule "extensions/UrlShortener"]
 	path = extensions/UrlShortener
 	url = https://github.com/wikimedia/mediawiki-extensions-UrlShortener
