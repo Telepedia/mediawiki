@@ -1077,7 +1077,7 @@
 [submodule "extensions/MintyDocs"]
 	path = extensions/MintyDocs
 	url = https://github.com/wikimedia/mediawiki-extensions-MintyDocs
-	branch = master
+	branch = REL1_39
 [submodule "extensions/EmbedSpotify"]
 	path = extensions/EmbedSpotify
 	url = https://github.com/NessunKim/mediawiki-embed-spotify
