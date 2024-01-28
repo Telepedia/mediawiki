@@ -1201,3 +1201,6 @@
 [submodule "extensions/MigrateUserAccount"]
 	path = extensions/MigrateUserAccount
 	url = https://github.com/weirdgloop/mediawiki-extensions-MigrateUserAccount.git
+[submodule "extensions/SearchLogger"]
+	path = extensions/SearchLogger
+	url = https://gitlab.com/telepedia/extensions/SearchLogger
