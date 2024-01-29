@@ -5,7 +5,8 @@
 				"extensions/AWS/composer.json",
 				"extensions/AbuseFilter/composer.json",
 				"extensions/TemplateStyles/composer.json",
-				"extensions/OAuth/composer.json"
+				"extensions/OAuth/composer.json",
+				"extensions/OATHAuth/composer.json"
 			]
 		}
 	}
