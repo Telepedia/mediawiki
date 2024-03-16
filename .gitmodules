@@ -422,10 +422,6 @@
 	path = extensions/JavascriptSlideshow
 	url = https://gitlab.com/hydrawiki/extensions/javascriptslideshow
 	branch = master
-[submodule "extensions/Wikibase"]
-	path = extensions/Wikibase
-	url = https://github.com/wikimedia/Wikibase
-	branch = REL1_39
 [submodule "extensions/RSS"]
 	path = extensions/RSS
 	url = https://github.com/wikimedia/mediawiki-extensions-RSS
@@ -945,14 +941,6 @@
 [submodule "extensions/EditNotify"]
 	path = extensions/EditNotify
 	url = https://github.com/wikimedia/mediawiki-extensions-EditNotify
-	branch = REL1_39
-[submodule "extensions/WikibaseQualityConstraints"]
-	path = extensions/WikibaseQualityConstraints
-	url = https://github.com/wikimedia/mediawiki-extensions-WikibaseQualityConstraints
-	branch = REL1_39
-[submodule "extensions/WikibaseLexeme"]
-	path = extensions/WikibaseLexeme
-	url = https://github.com/wikimedia/mediawiki-extensions-WikibaseLexeme
 	branch = REL1_39
 [submodule "extensions/Commentbox"]
 	path = extensions/Commentbox 
