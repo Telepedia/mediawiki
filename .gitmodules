@@ -1192,6 +1192,8 @@
 [submodule "extensions/SearchLogger"]
 	path = extensions/SearchLogger
 	url = https://gitlab.com/telepedia/extensions/SearchLogger
+	branch = master
 [submodule "extensions/RedisCache"]
 	path = extensions/RedisCache
 	url = https://gitlab.com/telepedia/extensions/RedisCache
+	branch = master
