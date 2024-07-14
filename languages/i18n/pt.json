@@ -91,7 +91,9 @@
 			"לערי ריינהארט",
 			"아라",
 			555,
-			"Caiofernandes"
+			"Caiofernandes",
+			"B3rnas",
+			"Vinickw"
 		]
 	},
 	"tog-underline": "Sublinhar hiperligações:",
@@ -712,7 +714,7 @@
 	"temp-user-banner-tooltip-title": "Conta temporária",
 	"temp-user-banner-tooltip-description-learn-more": "Esta conta temporária foi criada após ter sido feita uma eidção sem uma conta neste ''browser'' e dispositivo. [[mw:Help:Temporary_accounts|Saiba mais]].",
 	"temp-user-banner-tooltip-description-login": "[[Special:UserLogin|Inicie uma sessão]] ou [[Special:CreateAccount|crie uma conta]] para lhe ser atribuída a autoria das edições futuras e para aceder a outras funcionalidades.",
-	"blankarticle": "<strong>Aviso:</strong> A página que está prestes a criar está em branco.  \nSe clicar \"$1\" outra vez, a página será criada sem qualquer conteúdo.",
+	"blankarticle": "<strong>Aviso:</strong> A página que está prestes a criar está em branco. \nSe clicar \"$1\" outra vez, a página será criada sem qualquer conteúdo.",
 	"anoneditwarning": "<strong>Aviso</strong>: não iniciou uma sessão. O seu endereço IP poderá ser visto publicamente se realizar alguma edição. Se <strong>[$1 iniciar uma sessão]</strong> ou <strong>[$2 criar uma conta]</strong>, as suas edições serão registadas com o seu nome de utilizador, podendo ainda usufruir de outros benefícios.",
 	"autocreate-edit-warning": "<strong>Aviso:</strong> Não está autenticado. A sua edição será atribuída a <strong>[[{{MediaWiki:tempuser-helppage}}|um nome gerado automaticamente]]</strong> pela adição de um <i>cookie</i> ao seu <i>browser.</i> O seu endereço IP poderá ser visto por utilizadores de confiança. Se <strong>[$1 iniciar uma sessão]</strong> ou <strong>[$2 criar uma conta]</strong>, as suas edições serão atribuídas a um nome da sua escolha, entre outras vantagens.",
 	"anonpreviewwarning": "<em>Não iniciou uma sessão. Publicar registará o seu endereço IP no histórico de edições desta página.</em>",
@@ -1637,7 +1639,7 @@
 	"rcfilters-filtergroup-significance": "Significado",
 	"rcfilters-filter-minor-label": "Edições menores",
 	"rcfilters-filter-minor-description": "Edições marcadas pelo autor como menores.",
-	"rcfilters-filter-major-label": "Edições não-menores",
+	"rcfilters-filter-major-label": "Edições não menores",
 	"rcfilters-filter-major-description": "Edições não marcadas como menores.",
 	"rcfilters-filtergroup-watchlist": "Páginas vigiadas",
 	"rcfilters-filter-watchlist-watched-label": "Nas páginas vigiadas",
@@ -2896,6 +2898,8 @@
 	"movesubpage": "{{PLURAL:$1|Subpágina|Subpáginas}}",
 	"movesubpagetext": "Esta página tem $1 {{PLURAL:$1|subpágina mostrada|subpáginas mostradas}} abaixo.",
 	"movesubpagetalktext": "A página de discussão correspondente tem $1 {{PLURAL:$1|subpágina|subpáginas}}, mostradas abaixo.",
+	"movesubpagetext-truncated": "O primeiro $1 {{PLURAL:$1| subpágina|subpáginas}} desta página são mostradas abaixo.",
+	"movesubpagetalktext-truncated": "{{PLURAL:$1|A primeira subpágina|As primeiras $1 subpáginas}} da correspondente página de discussão são mostradas abaixo.",
 	"movenosubpage": "Esta página não tem subpáginas.",
 	"movereason": "Motivo:",
 	"moveotherreason": "Outro motivo/motivo adicional:",
