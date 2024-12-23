@@ -36,8 +36,7 @@
 			"Vlad5250",
 			"לערי ריינהארט",
 			"아라",
-			"Iketsi",
-			"Amire80"
+			"Iketsi"
 		]
 	},
 	"tog-underline": "Strek under lenkjer:",
@@ -2408,7 +2407,7 @@
 	"contributions-edit-count": "Ein {{GENDER:$1|brukar}} med $2 {{PLURAL:$2|endring|endringar}}.",
 	"contributions-account-creation-date": "Konto oppretta $1.",
 	"contributions-userdoesnotexist": "Brukarkontoen «$1» er ikkje oppretta.",
-	"nocontribs": "Det vart ikkje funne nokon endringar gjorde av denne brukaren.",
+	"nocontribs": "Det vart ikkje funne nokon endringar som passar med desse kriteria.",
 	"uctop": "gjeldande",
 	"month": "Månad:",
 	"year": "År:",
@@ -2521,6 +2520,7 @@
 	"emailblock": "sending av e-post blokkert",
 	"blocklist-nousertalk": "kan ikkje endre si eiga diskusjonsside",
 	"blocklist-editing": "endring",
+	"blocklist-editing-sitewide": "endring (heile nettstaden)",
 	"blocklist-editing-ns": "namnerom",
 	"ipblocklist-empty": "Lista over blokkeringar er tom.",
 	"ipblocklist-no-results": "Fann ingen blokkeringar for etterspurt brukarnamn eller IP-adresse.",

@@ -1,7 +1,6 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80",
 			"Baba Tabita",
 			"Edwingudfriend",
 			"Fitoschido",
@@ -34,7 +33,9 @@
 			"아라",
 			"Kisare",
 			"Sheilawangari",
-			"Raychep"
+			"Raychep",
+			"Jadnapac",
+			"Jon Harald Søby"
 		]
 	},
 	"tog-underline": "Wekea mstari viungo:",
@@ -140,7 +141,7 @@
 	"category_header": "Makala katika jamii \"$1\"",
 	"subcategories": "Vijamii",
 	"category-media-header": "Midia katika jamii \"$1\"",
-	"category-empty": "''Jamii hii bado haina kurasa wala midia yoyote.''",
+	"category-empty": "<em>Jamii hii bado haina kurasa wala midia yoyote.</em>",
 	"hidden-categories": "{{PLURAL:$1|Jamii iliofichwa|Jamii zilizofichwa}}",
 	"hidden-category-category": "Jamii zilizofichwa",
 	"category-subcat-count": "{{PLURAL:$2|Jamii hii ina kijamii hiki tu.|Jamii hii ina {{PLURAL:$1|kijamii kifuatacho|vijamii $1 vifuatavyo}}, kati ya jumla ya $2.}}",
@@ -2401,7 +2402,7 @@
 	"feedback-submit": "Wasilisha",
 	"feedback-thanks": "Ahsante! Maoni yako yamewekwa kwenye ukurasa wa \"[$2 $1]\".",
 	"feedback-thanks-title": "Asante!",
-	"searchsuggest-search": "Kutafuta",
+	"searchsuggest-search": "Tafuta {{SITENAME}}",
 	"searchsuggest-containing": "Tafuta kurasa zilizo na",
 	"api-error-emptypage": "Kutengeneza mpya, kurasa tupu hazikubaliwi",
 	"api-error-unknown-warning": "Ilani isiojulikana: \"$1\".",
@@ -2482,7 +2483,8 @@
 	"blockedtext-intended-blockee": "Mzuiaji anayetarajiwa: $1",
 	"blockedtext-contact-blocker-admin": "Unaweza kuwasiliana na $1 au mwingine [[{{MediaWiki:Grouppage-sysop}}|msimamizi]] ili kujadili kizuizi.",
 	"blockedtext-block-ip": "Anwani yako ya sasa ya IP ni $1.",
-	"blockedtext-include-details-queries": "Tafadhali jumuisha maelezo yote hapo juu katika maswali yoyote unayouliza.",
+	"blockedtext-block-id": "Kitambulisho cha kuzuia ni #$1.",
+	"blockedtext-include-details-queries": "Tafadhali jumuisha taarifa zote hapo juu katika maswali yoyote unayouliza.",
 	"renameuser": "Badili jina la mtumiaji",
 	"renameuser-linkoncontribs": "badili jina la mtumiaji",
 	"renameuser-linkoncontribs-text": "Badili jina la mtumiaji huyu",
