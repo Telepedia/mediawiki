@@ -19,16 +19,6 @@ CREATE TABLE /*_*/updatelog (
 ) /*$wgDBTableOptions*/;
 
 
-CREATE TABLE /*_*/actor (
-  actor_id BIGINT UNSIGNED AUTO_INCREMENT NOT NULL,
-  actor_user INT UNSIGNED DEFAULT NULL,
-  actor_name VARBINARY(255) NOT NULL,
-  UNIQUE INDEX actor_user (actor_user),
-  UNIQUE INDEX actor_name (actor_name),
-  PRIMARY KEY(actor_id)
-) /*$wgDBTableOptions*/;
-
-
 CREATE TABLE /*_*/user_former_groups (
   ufg_user INT UNSIGNED DEFAULT 0 NOT NULL,
   ufg_group VARBINARY(255) DEFAULT '' NOT NULL,
@@ -799,32 +789,6 @@ CREATE TABLE /*_*/page (
     page_len
   ),
   PRIMARY KEY(page_id)
-) /*$wgDBTableOptions*/;
-
-
-CREATE TABLE /*_*/user (
-  user_id INT UNSIGNED AUTO_INCREMENT NOT NULL,
-  user_name VARBINARY(255) DEFAULT '' NOT NULL,
-  user_real_name VARBINARY(255) DEFAULT '' NOT NULL,
-  user_password TINYBLOB NOT NULL,
-  user_newpassword TINYBLOB NOT NULL,
-  user_newpass_time BINARY(14) DEFAULT NULL,
-  user_email TINYTEXT NOT NULL,
-  user_touched BINARY(14) NOT NULL,
-  user_token BINARY(32) DEFAULT '' NOT NULL,
-  user_email_authenticated BINARY(14) DEFAULT NULL,
-  user_email_token BINARY(32) DEFAULT NULL,
-  user_email_token_expires BINARY(14) DEFAULT NULL,
-  user_registration BINARY(14) DEFAULT NULL,
-  user_editcount INT UNSIGNED DEFAULT NULL,
-  user_password_expires VARBINARY(14) DEFAULT NULL,
-  user_is_temp TINYINT(1) DEFAULT 0 NOT NULL,
-  UNIQUE INDEX user_name (user_name),
-  INDEX user_email_token (user_email_token),
-  INDEX user_email (
-    user_email(50)
-  ),
-  PRIMARY KEY(user_id)
 ) /*$wgDBTableOptions*/;
 
 
