@@ -791,15 +791,6 @@ CREATE TABLE /*_*/page (
   PRIMARY KEY(page_id)
 ) /*$wgDBTableOptions*/;
 
-
-CREATE TABLE /*_*/user_autocreate_serial (
-  uas_shard INT UNSIGNED NOT NULL,
-  uas_year SMALLINT UNSIGNED NOT NULL,
-  uas_value INT UNSIGNED NOT NULL,
-  PRIMARY KEY(uas_shard, uas_year)
-) /*$wgDBTableOptions*/;
-
-
 CREATE TABLE /*_*/revision (
   rev_id BIGINT UNSIGNED AUTO_INCREMENT NOT NULL,
   rev_page INT UNSIGNED NOT NULL,
