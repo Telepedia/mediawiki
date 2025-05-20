@@ -42,7 +42,7 @@ class DeprecatedHooks {
 		'EditPageBeforeEditToolbar' => [ 'deprecatedVersion' => '1.36' ],
 		'EmailUser' => [ 'deprecatedVersion' => '1.41', 'silent' => true ],
 		'EmailUserPermissionsErrors' => [ 'deprecatedVersion' => '1.41' ],
-		'InterwikiLoadPrefix' => [ 'deprecatedVersion' => '1.36' ],
+		'InterwikiLoadPrefix' => [ 'deprecatedVersion' => '1.36', 'silent' => true ],
 		'LocalFile::getHistory' => [ 'deprecatedVersion' => '1.37' ],
 		'MagicWordwgVariableIDs' => [ 'deprecatedVersion' => '1.35', 'silent' => true ],
 		'MessageCache::get' => [ 'deprecatedVersion' => '1.41' ],
