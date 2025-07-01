@@ -158,7 +158,8 @@
 			"Ninawauwau",
 			"Vanished 345490135",
 			"EGobi",
-			"Jessicamss93"
+			"Jessicamss93",
+			"BraunOBruno"
 		]
 	},
 	"sunday": "domingo",
@@ -229,6 +230,8 @@
 	"index-category": "Páginas indexadas",
 	"noindex-category": "Páginas não indexadas",
 	"broken-file-category": "Páginas com ligações inválidas para arquivos",
+	"categoryviewer-pagedlinks": "($1) ($2)",
+	"category-header-numerals": "$1–$2",
 	"about": "Sobre",
 	"article": "Página de conteúdo",
 	"newwindow": "(abre numa nova janela)",
@@ -4219,12 +4222,6 @@
 	"newpages-showhide-patrolled": "$1 edições patrulhadas",
 	"newpages-showhide-redirect": "$1 redirecionamentos",
 	"newpages-showhide-registered": "$1 usuários registrados",
-	"restsandbox": "Sandbox REST",
-	"restsandbox-text": "Esta página fornece um construtor de consultas para APIs REST. Observe que as chamadas de API interagirão com o conteúdo do wiki ativo.",
-	"restsandbox-select-api": "Escolha a API para explorar.",
-	"restsandbox-no-specs-configured": "Nenhuma API REST foi configurada para exploração. Utilize as configurações de RestExplorerSpecs.",
-	"restsandbox-no-such-api": "O parâmetro API fornecido não é suportado: $1",
-	"restsandbox-jsonly": "É necessário JavaScript para visualizar a especificação REST.",
 	"blockedtext-made-by": "O bloqueio foi feito por $1.",
 	"blockedtext-reason-comment": "O motivo apresentado é <em>$1</em>.",
 	"blockedtext-start-time": "Início do bloqueio: $1",

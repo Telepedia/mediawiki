@@ -68,7 +68,8 @@
 			"Wolf Rex",
 			"Xbspiro",
 			"아라",
-			"Karmantomi"
+			"Karmantomi",
+			"Krisztina"
 		]
 	},
 	"sunday": "vasárnap",
@@ -2226,8 +2227,8 @@
 	"addedwatchexpiry-options-label": "Figyelés időtartalma:",
 	"addedwatchexpiryhours": "A(z) „[[:$1]]” lap és vitalapja hozzáadva a [[Special:Watchlist|figyelőlistádhoz]] néhány órára.",
 	"addedwatchexpiryhours-talk": "A(z) „[[:$1]]” lap és a hozzá tartozó tartalmi lap hozzáadva a [[Special:Watchlist|figyelőlistádhoz]] néhány órára.",
-	"addedwatchexpirytext": "A(z) „[[:$1]]” lap és vitalapja hozzáadva a [[Special:Watchlist|figyelőlistádhoz]] a következő időtartalomra: $2.",
-	"addedwatchexpirytext-talk": "A(z) „[[:$1]]” lap és a hozzá tartozó tartalmi lap hozzáadva a [[Special:Watchlist|figyelőlistádhoz]] a következő időtartalomra: $2.",
+	"addedwatchexpirytext": "A(z) „[[:$1]]” lap és vitalapja hozzáadva a [[Special:Watchlist|figyelőlistádhoz]] a következő időtartamra: $2.",
+	"addedwatchexpirytext-talk": "A(z) „[[:$1]]” lap és a hozzá tartozó tartalmi lap hozzáadva a [[Special:Watchlist|figyelőlistádhoz]] a következő időtartamra: $2.",
 	"addedwatchindefinitelytext": "A(z) „[[:$1]]” lap és vitalapja állandó jelleggel hozzáadva a [[Special:Watchlist|figyelőlistádhoz]].",
 	"addedwatchindefinitelytext-talk": "A(z) „[[:$1]]” lap és a hozzá tartozó tartalmi lap állandó jelleggel hozzáadva a [[Special:Watchlist|figyelőlistádhoz]].",
 	"removewatch": "Eltávolítás a figyelőlistáról",
@@ -4039,12 +4040,6 @@
 	"newpages-showhide-patrolled": "ellenőrzött szerkesztések $1",
 	"newpages-showhide-redirect": "átirányítások $1",
 	"newpages-showhide-registered": "regisztrált felhasználók $1",
-	"restsandbox": "REST-homokozó",
-	"restsandbox-text": "Ez a lap lekérdezéskészítőt szolgáltat REST API-khoz. Megjegyzés: az API-hívások a wiki éles tartalmát használják és adott esetben módosítják.",
-	"restsandbox-select-api": "Válaszd ki a felfedezni kívánt API-t.",
-	"restsandbox-no-specs-configured": "Nincsenek REST API-k konfigurálva felfedezéshez. Használd a RestExplorerSpecs beállítást.",
-	"restsandbox-no-such-api": "A megadott API-paraméter nem támogatott: $1",
-	"restsandbox-jsonly": "A REST-specifikáció megtekintéséhez JavaScript szükséges.",
 	"blockedtext-made-by": "A blokkolást $1 hajtotta végre.",
 	"blockedtext-reason-comment": "A blokkolás indoka: <em>$1</em>.",
 	"blockedtext-start-time": "A blokk kezdete: $1",
