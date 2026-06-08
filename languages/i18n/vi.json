@@ -80,7 +80,8 @@
 			"NgocAnMaster",
 			"Bapham123",
 			"SaldırganSincap",
-			"Duongvu"
+			"Duongvu",
+			"Trần Xuân"
 		]
 	},
 	"sunday": "Chủ nhật",
@@ -377,7 +378,7 @@
 	"viewsource-title": "Xem mã nguồn của $1",
 	"actionthrottled": "Thao tác bị giới hạn",
 	"actionthrottledtext": "Để nhằm tránh spam, bạn không thể thực hiện thao tác này quá nhiều lần trong một thời gian ngắn. Xin hãy chờ vài phút trước khi thực hiện lại.",
-	"protectedpagetext": "Trang này đã bị khóa không cho sửa đổi hoặc tác động khác.",
+	"protectedpagetext": "Trang này đã bị khóa sửa đổi hoặc do các tác động khác.",
 	"viewsourcetext": "Bạn vẫn có thể xem và sao chép mã nguồn của trang này.",
 	"viewyourtext": "Bạn vẫn có thể xem và sao chép mã nguồn <strong>các sửa đổi của bạn</strong> tại trang này.",
 	"protectedinterface": "Trang này cung cấp một thông điệp trong giao diện phần mềm, nó có thể là tài liệu thuộc MediaWiki.org hoặc translatewiki.net. Chỉ có bảo quản viên hoặc bảo quản viên giao diện mới có thể sửa đổi trang. Để bổ sung hoặc thay đổi bản dịch ở bất cứ wiki nào, xin vui lòng đóng góp vào [https://translatewiki.net/wiki/Main_Page?setlang=vi translatewiki.net], dự án bản địa hóa của MediaWiki.",
@@ -3965,7 +3966,7 @@
 	"log-action-filter-block-reblock": "Thay đổi tác vụ cấm",
 	"log-action-filter-block-unblock": "Bỏ cấm",
 	"log-action-filter-contentmodel-change": "Thay đổi kiểu nội dung",
-	"log-action-filter-contentmodel-new": "Tạo trang có kiểu nội dung không chuẩn",
+	"log-action-filter-contentmodel-new": "Tạo trang có kiểu nội dung khác mặc định",
 	"log-action-filter-delete-delete": "Xóa trang",
 	"log-action-filter-delete-delete_redir": "Ghi đè trang đổi hướng",
 	"log-action-filter-delete-delete_redir2": "Ghi đè trang đổi hướng",
